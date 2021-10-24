@@ -1,0 +1,25 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #2f303a;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-left-container {
+  margin-right: 70px;
+}
+
+.footer-right-container {
+  margin-right: 93px;
+}
+
+.footer-title {
+  @include font(14px, bold, 1.14, 0.03em);
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
