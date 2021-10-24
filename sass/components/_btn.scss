@@ -13,11 +13,12 @@
   }
 }
 
-.btn-hero {
+.btn__hero {
+  margin-top: 30px;
   text-align: center;
 }
 
-.btn-footer {
+.btn__footer {
   width: 200px;
   height: 50px;
   padding: 10px 29px;
@@ -25,13 +26,13 @@
   text-align: center;
 }
 
-.btn-footer-style {
+.btn__footer_decoration_icon {
   margin-left: 10px;
   width: 24px;
   height: 24px;
 }
 
-.btn-practice {
+.btn__filter {
   padding: 6px 22px 6px 22px;
   font-family: inherit;
   @include font(16px, 500, 1.62, 0.03em);
@@ -52,7 +53,7 @@
   }
 }
 
-.btn-practice-one {
+.btn__filter_current {
   background-color: var(--accent-color);
   color: var(--tertiary-text-color);
 }
