@@ -1,0 +1,26 @@
+.address-list {
+  margin-top: 20px;
+  line-height: 1.71;
+}
+
+.address-item-contact {
+  margin-top: 9px;
+}
+
+.address-link {
+  color: var(--tertiary-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.address-link-social {
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
