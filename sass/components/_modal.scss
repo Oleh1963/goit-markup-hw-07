@@ -43,7 +43,7 @@
   margin-bottom: 12px;
 }
 
-.modal-area {
+.modal-field {
   margin-bottom: 10px;
 }
 
@@ -134,12 +134,12 @@
   }
 }
 
-.modal-link {
+.modal__link {
   padding-left: 4px;
   color: var(--accent-color);
   text-decoration: underline;
 }
-.modal-btn {
+.modal__btn {
   width: 200px;
   height: 50px;
   display: block;
