@@ -4,22 +4,22 @@
   background-color: #2f303a;
 }
 
-.footer-container {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer-left-container {
+.footer__container_position_left {
   margin-right: 70px;
 }
 
-.footer-right-container {
+.footer__container_position_right {
   margin-right: 93px;
 }
 
-.footer-title {
+.footer__title {
+  margin-bottom: 16px;
   @include font(14px, bold, 1.14, 0.03em);
   text-transform: uppercase;
   color: #ffffff;
-  padding-bottom: 20px;
 }
